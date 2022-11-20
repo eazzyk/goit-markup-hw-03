@@ -22,13 +22,6 @@ body {
 .header-block {
   display: flex;
 }
-.header-block-port {
-  display: flex;
-  border: 1px solid #ececec;
-  border-left: 0em;
-  border-right: 0em;
-  border-top: 0em;
-}
 /* logo */
 .logo-hd1 {
   font-family: Raleway;
@@ -389,6 +382,10 @@ body {
 .port-box {
   width: 1170px;
   margin: 0 auto;
+  border: 1px solid #ececec;
+  border-left: 0em;
+  border-right: 0em;
+  border-bottom: 0em;
 }
 .port-list {
   display: flex;
