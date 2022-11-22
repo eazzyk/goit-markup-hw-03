@@ -22,7 +22,7 @@ body {
 .header-block {
   display: flex;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
   align-items: center;
 }
 .header-bord {
