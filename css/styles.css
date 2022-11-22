@@ -23,15 +23,14 @@ body {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
-.header-block-port {
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+.header-bord {
   border: 1px solid #ececec;
   border-left: 0em;
   border-right: 0em;
   border-top: 0em;
+  margin: 0;
 }
 /* logo */
 .logo-hd1 {
@@ -75,8 +74,8 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 
   color: var(--mainhead-color);
 }
@@ -101,8 +100,8 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 
   color: var(--maintext-color);
 }
@@ -240,6 +239,7 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 0;
   margin-bottom: 50px;
 
   color: var(--mainhead-color);
@@ -428,6 +428,8 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section {
   padding-top: 94px;
